@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-width: 1200px;
+}
+body {
+  font-family: "Microsoft YaHei", "SimSun", Arial, Helvetica, sans-serif
+}
+
+li {
+  list-style: none;
+}
+#header {
+  position: relative;
+}
+.header-below-inner,
+.main-inner {
+  width: 1200px;
+}
+
+.main-inner-2-top,
+.main-inner-3-top,
+.main-inner-4-top,
+.main-inner-5-top {
+  font-size: 18px;
+  font-family: "微软雅黑";
+  color: #fb573c;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.main-inner-3-mid h4,
+.main-inner-3-bot h4 {
+  font-family: Microsoft Yahei;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  line-height: 56px;
+  padding-top: 10px;
+  ;
+}
+
+.main-inner-3-mid h2,
+.main-inner-3-bot h2 {
+  font-family: Microsoft Yahei;
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.main-inner-3-mid p,
+.main-inner-3-bot p {
+  font-family: Microsoft Yahei;
+  font-size: 20px;
+  color: #000;
+  line-height: 56px;
+  ;
+}
+
+.main-inner-2-top span,
+.main-inner-3-top span,
+.main-inner-4-top span,
+.main-inner-5-top span {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#header {
+  height: 492px;
+}
+
+.header-top {
+  height: 80px;
+  background-image: url(img/bj.png);
+  background-repeat: no-repeat;
+}
+
+.header-top-inner {
+  height: 80px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header-top-inner-left {
+  width: 40%;
+  float: right;
+  text-align: center;
+}
+
+.header-top-inner a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #fb573c;
+  height: 80px;
+  float: left;
+  line-height: 80px;
+  width: 50%;
+}
+
+.header-top-inner-right {
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
+.logo {
+  width: 132px;
+  height: 132px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -66px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-below {
+  height: 386px;
+  background-color: #fb573c;
+}
+
+.desinger-name {
+  display: block;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.header-below-inner {
+  width: 100%;
+  height: 386px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 100px;
+  box-sizing: border-box;
+  padding: 80px;
+}
+
+.header-below-inner-1 {
+  height: 222px;
+  font-size: 40px;
+  font-family: "微软雅黑";
+  color: #fff;
+  text-align: center;
+}
+
+.header-below-inner-1 p {
+  padding-top: 134px;
+}
+
+.header-below-inner-2 {
+  height: 164px;
+  margin: 0 auto;
+}
+
+.header-below-inner-3 {
+  width: 278px;
+  height: 112px;
+  text-align: center;
+  font-family: "微软雅黑";
+  color: #fff;
+  border: 1px #fff solid;
+  margin: 0 auto;
+}
+
+.header-below-inner-3 h1 {
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.header-below-inner-3 h3 {
+  font-size: 18px;
+}
+
+#main {
+  background-image: url(img/bj.png);
+  background-repeat: no-repeat;
+}
+
+.main-inner {
+  margin: 0 auto;
+}
+
+.main-inner-1 {
+  height: 330px;
+}
+
+.main-inner-1-yinhao {
+  float: left;
+  width: 54px;
+  height: 50px;
+  font-size: 150px;
+  font-family: "黑体";
+  color: #fb573c;
+}
+
+.main-inner-1-wenzi {
+  float: left;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  color: #000;
+  padding-top: 76px;
+  line-height: 50px;
+}
+
+.main-inner-2-bot {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  color: #000;
+  line-height: 40px;
+}
+
+.main-inner-2-bot span {
+  font-weight: 600;
+}
+
+.ul-left {
+  float: left;
+  width: 650px;
+}
+
+.ul-right {
+  float: left;
+  width: 550px;
+}
+
+.main-inner-3-bot {
+  margin-top: 20px;
+}
+
+.main-inner-4 {
+  height: 304px;
+}
+
+.main-inner-4-bot1 {
+  width: 136px;
+  float: left;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-top: 25px;
+  font-family: Microsoft Yahei;
+  text-align: center;
+  font-size: 22px;
+  line-height: 56px;
+}
+
+.main-inner-4-bot2 {
+  float: left;
+  margin-top: 50px;
+  width: 137px;
+  font-family: Microsoft Yahei;
+  text-align: center;
+  font-size: 22px;
+  line-height: 56px;
+}
+
+.main-inner-5 {
+  height: 604px;
+}
+
+.main-inner-5-bot {
+  margin-top: 42px;
+}
+
+.main-inner-5-bots {
+  width: 100%;
+  height: 219px;
+}
+
+.main-inner-5-botx {
+  width: 100%;
+  height: 218px;
+  margin-top: 1px;
+}
+
+.main-inner-5-bots1 {
+  float: left;
+  width: 298px;
+  height: 218px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+    margin: 0 1px;
+}
+
+.main-inner-5-bots1:hover .works-bg {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+}
+
+.works-bg {
+  transition: all .3s ease-in-out;
+}
+
+.main-inner-5-bots1:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+}
+
+.main-inner-5-bots1 a {
+  width: 299px;
+  height: 218px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.main-inner-5-bots1 .plus-bg {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  line-height: 80px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 40px auto 20px;
+}
+
+.main-inner-5-bots1 .plus-bg .plus {
+  background: url(http://www.onbupt.com/lijingjing/img/plus.png) 50% 50% no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#footer {
+  background-color: #fb5545;
+  height: 260px;
+}
+
+.footer-inner {
+  margin: 0 auto;
+}
+
+.footer-inner-1 {
+  width: 100%;
+  height: 144px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Microsoft Yahe;
+  line-height: 144px;
+  color: #fff;
+  background: url(http://www.onbupt.com/lijingjing/img/thanks.png) 50% 50% no-repeat;
+  padding-top: 110px;
+}
+
+.footer-inner-3 {
+  margin: 0 auto;
+  width: 310px;
+  height: 64px;
+  border: 1px #fff solid;
+  text-align: center;
+  font-size: 30px;
+  font-family: Microsoft Yahe;
+  line-height: 64px;
+  color: #fff;
+}
+
+.item-lists {
+  padding: 0;
+}
+
+#skillsSummary.item-lists {
+  padding: 30px 60px 10px;
+}
+
+.item-lists .item {
+  margin: 20px 0 0;
+  font-size: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+.item-lists .item .index {
+    position: absolute;
+    left: 0;
+}
+
+#skillsSummary:before {
+  content: '';
+  width: 51px;
+  height: 45px;
+  display: block;
+  left: -5px;
+  top: 28px;
+  position: absolute;
+  background: url(http://www.onbupt.com/lijingjing/img/yinhao.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+#skillsSummary {
+  position: relative;
+}
+
+.work-experience {
+  padding: 50px 0 0 30px;
+}
+
+.work-duration {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.work-position {
+  font-size: 26px;
+  font-weight: bold;
+}
+#experience .main-inner-2-top{
+    margin-bottom: -20px;
+}
+#experience .item-lists .item {
+  margin: 16px 0 0;
+  font-size: 16px;
+}
+
+#skillsSummary {}
